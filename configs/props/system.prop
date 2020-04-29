@@ -82,7 +82,6 @@ persist.radio.multisim.config=dsds
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.telephony.default_cdma_sub=0
-ro.telephony.default_network=22,20
 telephony.lteOnCdmaDevice=1
 
 # RIL Powersaving

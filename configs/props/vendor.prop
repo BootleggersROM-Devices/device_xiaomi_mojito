@@ -209,6 +209,7 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.disableQXDMLogs=1
 persist.vendor.qti.telephony.vt_cam_interface=2
+ro.telephony.default_network=22,20
 ro.telephony.iwlan_operation_mode=legacy
 
 # Render Engine
