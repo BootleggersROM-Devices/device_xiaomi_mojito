@@ -130,6 +130,10 @@ on property:sys.boot_completed=1
     setprop vendor.usb.qdss.inst.name "qdss"
     setprop sys.usb.configfs 1
 
+    # Report max frequency to unity tasks
+    write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
+    write /proc/sys/kernel/sched_lib_mask_force 255
+
     # Enable ZRAM on boot_complete
 on property:sys.boot_completed=1
     rm /data/unencrypted/zram_swap
