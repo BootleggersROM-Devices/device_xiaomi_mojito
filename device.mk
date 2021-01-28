@@ -143,6 +143,9 @@ PRODUCT_COPY_FILES += \
 # Device-specific settings
 $(call inherit-product-if-exists, vendor/xiaomi/devicesettings/import_device_parts.mk)
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
