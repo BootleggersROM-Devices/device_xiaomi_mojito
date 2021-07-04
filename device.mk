@@ -570,19 +570,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.rtt.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail_32 \
-    libdisplayconfig.system.qti \
-    libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libqdMetaData.system \
-    libwfdaac_vendor
-
-#PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
