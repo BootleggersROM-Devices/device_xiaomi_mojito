@@ -286,7 +286,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.mojito
+    android.hardware.light-service.xiaomi
 
 # LMK tuning
 PRODUCT_PROPERTY_OVERRIDES += \
