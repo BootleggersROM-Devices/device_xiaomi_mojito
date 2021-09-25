@@ -284,6 +284,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
     init.device.rc \
     init.mojito.perf.rc \
+    init.qcom.early_boot.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
