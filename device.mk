@@ -191,7 +191,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/displayconfig/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml
+    $(LOCAL_PATH)/configs/displayconfig/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml \
+    $(LOCAL_PATH)/configs/display/display_id_4630946736638489729.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946736638489729.xml
 
 # DRM
 PRODUCT_PACKAGES += \
