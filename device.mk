@@ -148,7 +148,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 # Device-specific settings
-$(call inherit-product-if-exists, vendor/xiaomi/devicesettings/import_device_parts.mk)
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
