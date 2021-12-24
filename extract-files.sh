@@ -62,7 +62,7 @@ function blob_fixup() {
             "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
             ;;
         vendor/bin/mi_thermald)
-            sed -i "s|ug_cpu|ug_uwu|g" "${2}"
+            sed -i 's/%d\/on/%d\/../g' "${2}"
             ;;
     esac
 }
