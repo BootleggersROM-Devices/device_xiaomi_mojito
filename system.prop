@@ -101,3 +101,6 @@ ro.support_one_handed_mode=true
 
 # Storage.xml moment
 persist.sys.binary_xml=false
+
+#AvoidGfxAccel 
+ro.config.avoid_gfx_accel=true
