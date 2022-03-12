@@ -114,6 +114,7 @@ persist.vendor.dpm.loglevel=0
 persist.vendor.dpmhalservice.enable=1
 
 # Display
+debug.sdm.support_writeback=0
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.disable_backpressure=1
