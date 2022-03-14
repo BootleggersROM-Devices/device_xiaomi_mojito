@@ -331,6 +331,11 @@ case "$soc_id" in
     # Turn off scheduler boost at the end
     echo 0 > /proc/sys/kernel/sched_boost
 
+    # Configure default schedTune value for foreground/top-app
+    echo 1 > /dev/stune/foreground/schedtune.prefer_idle
+    echo 10 > /dev/stune/top-app/schedtune.boost
+    echo 1 > /dev/stune/top-app/schedtune.prefer_idle
+
     # Turn on sleep modes.
     echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
     ;;
