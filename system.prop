@@ -22,6 +22,10 @@ pm.dexopt.bg-dexopt=speed-profile
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=quicken
 
+# Gboard
+ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.corner_key_r=32
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
