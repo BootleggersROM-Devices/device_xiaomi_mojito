@@ -110,10 +110,6 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mojito
 TARGET_RECOVERY_DEVICE_MODULES := libinit_mojito
 
-# IORap
-PRODUCT_PRODUCT_PROPERTIES += \
-     ro.iorapd.enable=true
-
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
