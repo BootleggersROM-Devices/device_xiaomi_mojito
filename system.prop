@@ -41,6 +41,9 @@ debug.force_no_blanking=true
 ro.com.google.ime.kb_pad_port_b=1
 ro.com.google.ime.corner_key_r=32
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
