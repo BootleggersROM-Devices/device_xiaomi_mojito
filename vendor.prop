@@ -160,6 +160,7 @@ vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+vendor.display.disable_rotator_downscale=1
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
