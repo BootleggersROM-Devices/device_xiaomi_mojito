@@ -232,3 +232,8 @@ ro.surface_flinger.set_touch_timer_ms=750
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM6150
+
+# System
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.config.dha_tunnable=1
