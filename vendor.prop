@@ -190,6 +190,9 @@ debug.stagefright.omx_default_rank.sw-audio=1
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
 
+# Printk
+persist.vendor.console.silent.config=1
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
