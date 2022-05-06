@@ -116,6 +116,12 @@ on property:sys.boot_completed=1
     chown system system /sys/class/power_supply/battery/battery_charging_enabled
     chown system system /sys/class/power_supply/usb/typec_cc_orientation
 
+    # CPU
+    chmod 0644 /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chmod 0644 /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
+    chown system system /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
+
     # USB controller configuration
     setprop vendor.usb.rndis.func.name "gsi"
     setprop vendor.usb.rmnet.func.name "gsi"
@@ -201,3 +207,7 @@ service vendor.nv_mac /vendor/bin/nv_mac
 
 on property:ro.boot.hwversion=*
     setprop vendor.boot.hwversion ${ro.boot.hwversion}
+
+on property:sys.boot_completed=1
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 300000
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 300000
