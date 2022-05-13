@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 CannedShroud
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kprofiles_title">KProfilleri</string>
+    <string name="kprofiles_summary">Pil yedekleme ve performans açısından dengeleme sağlamak için Kernelspace profillerini yönetme</string>
+    <string name="kprofiles_auto_title">Otomatik KProfilleri Kullanın</string>
+    <string name="kprofiles_auto_summary">Cihaz ekranı kapandığında otomatik olarak pil moduna geçer ve ekran açıldığında varsayılan profile geri döner</string>
+    <string name="kprofiles_modes_title">KProfil Modları</string>
+    <string name="kprofiles_modes_none">Hiçbiri</string>
+    <string name="kprofiles_modes_battery">Batarya</string>
+    <string name="kprofiles_modes_balanced">Dengeli</string>
+    <string name="kprofiles_modes_performance">Performans</string>
+    <string name="kprofiles_not_supported">KProfiller şu anda çekirdek tarafından desteklenmemektedir</string>
+    <string name="kprofiles_modes_none_description">Çekirdek içi faaliyetleri profil odaklı bir şekilde düzenleyip yöneterek batarya yedekleme ve performans açısından dengeyi buna göre sağlamak</string>
+    <string name="kprofiles_modes_battery_description">Pil Modu:\nTüm kullanıcı alanı ve/veya çekirdek içi güçlendirmeleri atlar, gpu ölçekleme frekansını azaltır</string>
+    <string name="kprofiles_modes_balanced_description">Dengeli Mod:\nPil ve performans modları arasındaki dengeyi sağlar</string>
+    <string name="kprofiles_modes_performance_description">Performans Modu:\nTüm güçlendirmeleri en üst düzeye çıkarır, gpu ölçekleme frekansını maksimuma çıkarır</string>
+</resources>

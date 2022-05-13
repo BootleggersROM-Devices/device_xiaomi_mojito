@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 CannedShroud
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kprofiles_title">KProfiles</string>
+    <string name="kprofiles_summary">Gerenciando os perfis do Kernelspace para alcançar o equilíbrio em termos do uso da bateria e desempenho</string>
+    <string name="kprofiles_auto_title">Usar perfis automáticos</string>
+    <string name="kprofiles_auto_summary">Alternar automaticamente para o modo de bateria quando a tela do dispositivo desligar e voltar ao perfil padrão quando a tela ligar</string>
+    <string name="kprofiles_modes_title">Modos KProfiles</string>
+    <string name="kprofiles_modes_none">Nenhum</string>
+    <string name="kprofiles_modes_battery">Bateria</string>
+    <string name="kprofiles_modes_balanced">Balanceado</string>
+    <string name="kprofiles_modes_performance">Desempenho</string>
+    <string name="kprofiles_not_supported">KProfiles não são atualmente suportados pelo kernel</string>
+    <string name="kprofiles_modes_none_description">Regulamenta e gerencia as atividades dentro do kernel de forma focada no perfil para alcançar o equilíbrio em termos de bateria e desempenho</string>
+    <string name="kprofiles_modes_battery_description">Modo de bateria:\nIgnorar todos os espaços do usuário e/ou impulsos do kernel, reduzindo a frequência de escala da gpu</string>
+    <string name="kprofiles_modes_balanced_description">Modo Balanceado:\nAjusta o equilíbrio entre os modos de bateria e desempenho</string>
+    <string name="kprofiles_modes_performance_description">Modo de desempenho:\nMaximiza todos os impulsos, aumentando a frequência de escala da gpu até seu máximo</string>
+</resources>

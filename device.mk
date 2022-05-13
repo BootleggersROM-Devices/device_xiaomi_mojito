@@ -304,6 +304,10 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 

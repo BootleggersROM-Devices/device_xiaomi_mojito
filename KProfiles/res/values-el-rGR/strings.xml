@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 CannedShroud
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kprofiles_title">KProfiles</string>
+    <string name="kprofiles_summary">Διαχείριση προφίλ Kernelspace για επίτευξη εξισορρόπησης όσον αφορά την διάρκεια ζωής και την απόδοση της μπαταρίας</string>
+    <string name="kprofiles_auto_title">Χρήση Αυτόματων KProfiles</string>
+    <string name="kprofiles_auto_summary">Αυτόματη εναλλαγή σε λειτουργία μπαταρίας όταν η οθόνη της συσκευής απενεργοποιείται και επιστροφή στο προεπιλεγμένο προφίλ όταν η οθόνη ενεργοποιείται</string>
+    <string name="kprofiles_modes_title">Λειτουργίες KProfiles</string>
+    <string name="kprofiles_modes_none">Καμία</string>
+    <string name="kprofiles_modes_battery">Μπαταρία</string>
+    <string name="kprofiles_modes_balanced">Ισορροπημένο</string>
+    <string name="kprofiles_modes_performance">Απόδοση</string>
+    <string name="kprofiles_not_supported">Το KProfiles δεν υποστηρίζεται προς το παρόν από τον πυρήνα</string>
+    <string name="kprofiles_modes_none_description">Ρυθμίστε και διαχειριστείτε τις δραστηριότητες εντός του πυρήνα με τρόπο προσανατολισμένο στο προφίλ για να επιτύχετε ισορροπία όσον αφορά την διάρκεια ζωής της μπαταρίας και την απόδοση ανάλογα</string>
+    <string name="kprofiles_modes_battery_description">Λειτουργία Μπαταρίας:\nΠαράλειψη όλων των ενισχυτών χώρου χρήστη ή/και εντός πυρήνα, μειώνει τη συχνότητα κλιμάκωσης gpu</string>
+    <string name="kprofiles_modes_balanced_description">Ισορροπημένη Λειτουργία:\nΣυμβουλές για την ισορροπία μεταξύ μπαταρίας και απόδοσης</string>
+    <string name="kprofiles_modes_performance_description">Λειτουργία Απόδοσης:\nΜεγιστοποίηση όλων των αυξήσεων, αυξάνει τη συχνότητα κλιμάκωσης gpu στο μέγιστο της</string>
+</resources>
