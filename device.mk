@@ -279,6 +279,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.filecache_min_kb=153600 \
     ro.lmk.stall_limit_critical=40
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-impl \

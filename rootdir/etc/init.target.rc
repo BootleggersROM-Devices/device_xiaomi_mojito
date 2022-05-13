@@ -75,6 +75,11 @@ on boot
     start rfs_access
     start mi_thermald
 
+# Allow system to manipulate kprofiles modes and parameters
+    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
+    chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
+    chown system system /sys/module/kprofiles/parameters/kp_mode
+    chmod 0660 /sys/module/kprofiles/parameters/kp_mode
     chown system system /sys/class/thermal/thermal_message/sconfig
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown system system /sys/class/thermal/thermal_message/charger_temp
@@ -113,7 +118,7 @@ on property:sys.boot_completed=1
 
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_child_runs_first 1
-
+    
     # Elliptic
     chmod 0666 /dev/elliptic0
     chmod 0666 /dev/elliptic1
