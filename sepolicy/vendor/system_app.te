@@ -16,3 +16,6 @@ allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read open getattr };
 
 allow system_app sysfs_kprofiles:file rw_file_perms;
+
+# Allow Parts write thermals
+allow system_app sysfs_thermal:file rw_file_perms;
