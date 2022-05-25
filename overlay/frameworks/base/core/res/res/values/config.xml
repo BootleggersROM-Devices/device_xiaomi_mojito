@@ -432,10 +432,8 @@
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>/system/framework/framework.jar</item>
         <item>/system/framework/arm64/boot-framework.vdex</item>
-        <item>/system/framework/arm64/boot-framework.oat</item>
         <item>/system/framework/services.jar</item>
         <item>/system/framework/oat/arm64/services.vdex</item>
-        <item>/system/framework/oat/arm64/services.odex</item>
         <item>/apex/com.android.art/javalib/core-oj.jar</item>
         <item>/apex/com.android.art/javalib/arm64/boot.vdex</item>
         <item>/apex/com.android.art/javalib/arm64/boot.oat</item>
