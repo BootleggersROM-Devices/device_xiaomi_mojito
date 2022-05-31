@@ -58,7 +58,6 @@ ro.netflix.bsp_rev=Q6150-17263-1
 persist.rcs.supported=1
 
 # Radio
-persist.radio.add_power_save=1
 persist.radio.multisim.config=dsds
 persist.radio.NO_STAPA=1
 persist.radio.VT_CAM_INTERFACE=1
@@ -68,6 +67,14 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 persist.sys.fflag.override.settings_provider_model=false
 telephony.lteOnCdmaDevice=1
+
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=1000
 
 # WiFi
 wifi.interface=wlan0
