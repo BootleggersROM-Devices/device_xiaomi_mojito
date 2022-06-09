@@ -60,4 +60,48 @@
 
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi Note 10</string>
+
+    <!-- Array describing scanning schedule in seconds when device is connected and screen is on -->
+    <array name="config_wifiConnectedScanIntervalScheduleSec">
+        <item>86400</item>
+    </array>
+
+    <!-- Array describing scanning schedule in seconds when device is disconnected and screen is on -->
+    <integer-array name="config_wifiDisconnectedScanIntervalScheduleSec">
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </integer-array>
+
+    <!--
+    Controls the mapping between RSSI and RSSI levels
+    RSSI                                    RSSI Level
+    (-infinity, thresholds[0])                       0
+    [threshold[0], threshold[1])                     1
+    [threshold[1], threshold[2])                     2
+    ...                                            ...
+    [threshold[len-2], threshold[len-1])         len-1
+    [threshold[len-1], +infinity)                  len
+    where:
+        [a, b) is the range of integers `n` such that a <= n < b
+        `threshold[i]` represents the i'th element of the config_wifiRssiLevelThresholds array
+        and `len` is the length of the config_wifiRssiLevelThresholds array.
+    -->
+    <integer-array name="config_wifiRssiLevelThresholds">
+        <item>-93</item>
+        <item>-82</item>
+        <item>-74</item>
+        <item>-64</item>
+    </integer-array>
+
+    <!-- Boolean indicating whether or not to reset max client setting configuration during cloud configuration restore -->
+    <bool name="config_wifiSoftapResetMaxClientSettingConfig">false</bool>
 </resources>
