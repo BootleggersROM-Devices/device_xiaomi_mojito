@@ -24,4 +24,7 @@
     <!-- Set Window transition scale to 50% by default -->
     <fraction name="def_window_transition_scale">50%</fraction>
 
+    <!-- Disable UI touch sounds by default -->
+    <bool name="def_sound_effects_enabled">false</bool>
+
 </resources>
