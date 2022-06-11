@@ -3,6 +3,8 @@ ro.adb.secure.recovery=0
 
 # Bluetooth
 vendor.bluetooth.soc=cherokee
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
 
 # Blur
 ro.launcher.blur.appLaunch=0
