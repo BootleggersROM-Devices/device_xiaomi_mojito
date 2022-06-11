@@ -337,3 +337,12 @@ case "$soc_id" in
 esac
 
 setprop vendor.post_boot.parsed 1
+
+# set sys.use_fifo_ui prop if eas exist
+    available_governors=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors)
+
+    if echo "$available_governors" | grep schedutil; then
+       echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+       echo "schedutil" > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
+       setprop sys.use_fifo_ui 1
+    fi
