@@ -5,6 +5,7 @@ ro.adb.secure.recovery=0
 vendor.bluetooth.soc=cherokee
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
+persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Blur
 ro.launcher.blur.appLaunch=0
