@@ -962,10 +962,8 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # QMI
 system_ext/etc/permissions/qti_permissions.xml
-vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qrtr-ns
-vendor/etc/sec_config
 vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
