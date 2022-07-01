@@ -101,6 +101,9 @@ ro.vendor.bluetooth.wipower=false
 ro.vendor.display.type=oled
 vendor.qcom.bluetooth.soc=cherokee
 
+# Camera
+persist.vendor.camera.logInfoMask=false
+
 # Charge
 persist.vendor.quick.charge=1
 
