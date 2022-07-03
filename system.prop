@@ -46,6 +46,12 @@ ro.com.google.ime.corner_key_r=32
 # Disable remote keyguard animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# Iorapd
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
