@@ -355,3 +355,13 @@ on property:init.svc.tcpdump=running
 
 on property:init.svc.vendor.ipacm-diag=running
     stop vendor.ipacm-diag
+
+service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@2.4-service
+    override
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    socket pps stream 0660 system system
+    writepid /dev/cpuset/foreground/tasks
