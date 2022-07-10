@@ -50,6 +50,7 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
+pm disable com.google.android.gms/.chimera.GmsIntentOperationService
 
 # Remove settings cache, avoids derps after dirty flash
 rm -rf /data/system/package_cache
