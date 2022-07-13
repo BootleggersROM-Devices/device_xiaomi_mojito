@@ -222,6 +222,7 @@ dev/mem_buf_vm/*          0444   system     system
 /dev/msm_evrc             0660   system     audio
 /dev/msm_wma              0660   system     audio
 /dev/msm_wmapro           0660   system     audio
+/dev/msm_adsp_sleepmon    0660   system     audio
 /dev/msm_alac             0660   system     audio
 /dev/msm_ape              0660   system     audio
 /dev/msm_amrnb            0660   system     audio
