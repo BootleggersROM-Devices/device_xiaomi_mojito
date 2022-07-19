@@ -23,3 +23,7 @@ allow hal_power_default {
 
 # Rule for hal_power_default to access graphics composer process
 unix_socket_connect(hal_power_default, vendor_pps, hal_graphics_composer_default);
+
+# Allow hal_power_default to read and write to KProfiles nodes
+allow hal_power_default sysfs_kprofiles:dir r_dir_perms;
+allow hal_power_default sysfs_kprofiles:file rw_file_perms;
