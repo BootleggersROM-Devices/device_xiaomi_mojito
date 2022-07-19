@@ -645,9 +645,6 @@
     <!-- Specify custom blanking delay of the display -->
     <integer name="config_screen_off_delay">0</integer>
 
-    <!-- Whether to show the Preference for Adaptive connectivity -->
-    <bool name="config_show_adaptive_connectivity">false</bool>
-
     <!-- Night display color temperature calibration -->
     <string-array name="config_nightDisplayColorTemperatureCoefficients">
         <!-- R a-coefficient --> <item>0.0</item>
