@@ -31,3 +31,6 @@ ro.vendor.ril                                   u:object_r:vendor_public_vendor_
 
 # Thermal
 vendor.sys.thermal.                             u:object_r:vendor_thermal_normal_prop:s0
+
+# wlan
+wifi.interface			                u:object_r:wifi_hal_prop:s0
