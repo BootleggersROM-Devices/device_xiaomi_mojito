@@ -49,6 +49,9 @@ ro.com.google.ime.corner_key_r=32
 # Disable remote keyguard animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# IncrementalFS
+ro.incremental.enable=yes
+
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
