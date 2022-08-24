@@ -119,7 +119,6 @@ ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
 
 # Display
-debug.renderengine.backend=threaded
 debug.sdm.support_writeback=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
