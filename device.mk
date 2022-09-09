@@ -527,9 +527,11 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
+    libdisplayconfig.system.qti \
     libdisplayconfig.qti \
     libnl \
     libqdMetaData \
+    libqdMetaData.system \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
