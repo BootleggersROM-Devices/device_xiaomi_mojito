@@ -87,6 +87,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth@1.0.vendor \
+    libbthost_if \
+    libbthost_if.vendor \
+    libldacBT_bco.vendor \
     libldacBT_bco \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
