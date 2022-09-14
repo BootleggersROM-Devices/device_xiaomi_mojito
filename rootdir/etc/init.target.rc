@@ -204,7 +204,7 @@ service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
 service vendor.nv_mac /vendor/bin/nv_mac
     class main
     user system
-    group system inet net_admin wifi net_raw
+    group system inet net_admin wifi net_raw oem_2901
     oneshot
 
 on property:ro.boot.hwversion=*
