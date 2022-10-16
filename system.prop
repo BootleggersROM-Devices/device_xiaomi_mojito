@@ -107,3 +107,6 @@ persist.sys.binary_xml=false
 
 #AvoidGfxAccel 
 ro.config.avoid_gfx_accel=true
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
