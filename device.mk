@@ -369,9 +369,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service.mock
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
