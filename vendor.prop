@@ -149,7 +149,6 @@ vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_inline_rotator=1
-vendor.display.disable_scaler=0
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
@@ -160,7 +159,6 @@ vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.disable_rotator_downscale=1
 debug.hwui.use_buffer_age=false
-vendor.gralloc.disable_ubwc=0
 
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
