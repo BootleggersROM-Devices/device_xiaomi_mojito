@@ -129,7 +129,6 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Data modules
 ro.vendor.use_data_netmgrd=true
-persist.vendor.data.mode=concurrent
 
 # Display
 debug.sdm.support_writeback=0
@@ -189,7 +188,6 @@ ro.vendor.perf-hal.ver=2.2
 ro.vendor.qti.va_aosp.support=1
 
 # Radio
-persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_con_rprt=1
 persist.vendor.radio.enable_temp_dds=true
