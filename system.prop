@@ -2,7 +2,6 @@
 ro.adb.secure.recovery=0
 
 # Bluetooth
-vendor.bluetooth.soc=cherokee
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.bt.a2dp.aac_whitelist=false
@@ -73,15 +72,12 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
 ro.netflix.signup=1
 
-# RCS
-persist.rcs.supported=1
-
 # Radio
 persist.radio.apm_sim_not_pwdn=1
-persist.radio.multisim.config=dsds
 persist.radio.NO_STAPA=1
 persist.radio.VT_CAM_INTERFACE=1
 persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.multisim.config=dsds
 ril.subscription.types=RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.telephony.default_cdma_sub=0
@@ -95,9 +91,6 @@ ro.ril.disable.power.collapse=0
 ro.ril.fast.dormancy.rule=1
 ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=1000
-
-# WiFi
-wifi.interface=wlan0
 
 # One handed mode
 ro.support_one_handed_mode=true
