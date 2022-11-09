@@ -122,9 +122,6 @@
         <item>350</item>
         <item>390</item>
         <item>455</item>
-        <item>500</item>
-        <item>590</item>
-        <item>680</item>
     </array>
 
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
@@ -270,7 +267,7 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>2</item>    <!-- index 1 -->
-        <item>475</item>  <!-- index 2 -->
+        <item>450</item>  <!-- index 2 -->
     </array>
 
     <!-- Screen brightness used to dim the screen when the user activity
