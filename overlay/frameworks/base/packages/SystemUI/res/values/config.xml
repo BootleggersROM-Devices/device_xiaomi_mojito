@@ -23,21 +23,11 @@
     <!-- Whether usage of the proximity sensor during doze is supported -->
     <bool name="doze_proximity_sensor_supported">false</bool>
 
-    <!-- Whether to pulse onFingerDown actions while in AOD. -->
-    <bool name="config_pulseOnFingerDownInAod">true</bool>
-
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
-
-    <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">6</integer>
-    <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
-
-    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
-    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
      vibrator is capable of subtle vibrations -->
