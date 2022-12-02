@@ -72,9 +72,9 @@ function configure_memory_parameters() {
 
     echo "18432,23040,27648,64512,165888,225792" > /sys/module/lowmemorykiller/parameters/minfree
 
-    # Enable adaptive LMK for all targets &
+    # Disable adaptive LMK for all targets &
     # use Google default LMK series for all 64-bit targets >=2GB.
-    echo 1 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
+    echo 0 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
     echo 1 > /sys/module/lowmemorykiller/parameters/oom_reaper
 
     echo 1 > /proc/sys/vm/watermark_scale_factor
