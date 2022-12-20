@@ -23,9 +23,9 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <hal format="aidl" optional="true">
         <name>android.hardware.drm</name>
-        <version>1.4</version>
+        <version>1</version>
         <interface>
             <name>ICryptoFactory</name>
             <instance>clearkey</instance>
@@ -89,6 +89,13 @@
         <version>1.0-1</version>
         <interface>
             <name>IRadioConfig</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <interface>
+            <name>IVibrator</name>
             <instance>default</instance>
         </interface>
     </hal>
