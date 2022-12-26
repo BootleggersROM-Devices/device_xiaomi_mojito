@@ -158,7 +158,6 @@ vendor.display.idle_time_inactive=0
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.disable_rotator_downscale=1
-debug.hwui.use_buffer_age=false
 
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
