@@ -23,6 +23,9 @@ ro.ril.miui.imei                                u:object_r:vendor_deviceid_prop:
 ro.ril.oem.imei                                 u:object_r:vendor_deviceid_prop:s0
 ro.ril.oem.meid                                 u:object_r:vendor_deviceid_prop:s0
 
+# Fastbootd
+ro.fastbootd.available                           u:object_r:exported_default_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay                          u:object_r:vendor_tee_listener_prop:s0
 
