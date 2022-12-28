@@ -16,6 +16,10 @@
 */
 -->
 <resources>
+    <dimen name="config_rounded_mask_size">156px</dimen>
+    <dimen name="config_rounded_mask_size_top">@dimen/config_rounded_mask_size</dimen>
+    <dimen name="config_rounded_mask_size_bottom">@dimen/config_rounded_mask_size</dimen>
+
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1025px</dimen>
 
