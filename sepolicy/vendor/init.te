@@ -13,4 +13,4 @@ allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 # Allow init to set read_ahead_kb and discard_max_bytes on /data partition
 allow init vendor_sysfs_scsi_host:file w_file_perms;
 
-allow init sysfs:file { setattr };
+allow init sysfs_kprofiles:file { setattr };

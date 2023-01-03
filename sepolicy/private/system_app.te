@@ -4,3 +4,5 @@ dontaudit system_app system_suspend_control_internal_service:service_manager { f
 dontaudit system_app tracingproxy_service:service_manager { find };
 
 hal_client_domain(system_app, hal_mlipay)
+
+allow system_app sysfs_kprofiles:file rw_file_perms;
