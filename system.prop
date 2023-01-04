@@ -38,9 +38,6 @@ persist.sys.fuse.passthrough.enable=true
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# IncrementalFS
-ro.incremental.enable=yes
-
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
