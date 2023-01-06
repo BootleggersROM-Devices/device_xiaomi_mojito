@@ -83,9 +83,6 @@ ro.mot.eri.losalert.delay=1000
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
-# One handed mode
-ro.support_one_handed_mode=true
-
 # Storage.xml moment
 persist.sys.binary_xml=false
 
