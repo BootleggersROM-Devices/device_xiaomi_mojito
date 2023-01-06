@@ -395,7 +395,7 @@
          Note that doze dreams are not subject to the same start conditions as ordinary dreams.
          Doze dreams will run whenever the power manager is in a dozing state. -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-
+  
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
          When false, autosuspend_disable() will be called before the display is turned on
@@ -411,21 +411,6 @@
          Refer to autosuspend.h for details.
     -->
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-
-    <!-- Power Management: Specifies whether to decouple the interactive state of the
-         device from the display on/off state.
-         When false, setInteractive(..., true) will be called before the display is turned on
-         and setInteractive(..., false) will be called after the display is turned off.
-         This mode provides best compatibility for devices that expect the interactive
-         state to be tied to the display state.
-         When true, setInteractive(...) will be called independently of whether the display
-         is being turned on or off.  This mode enables the power manager to reduce
-         clocks and disable the touch controller while the display is on.
-         This resource should be set to "true" when a doze component has been specified
-         to maximize power savings but not all devices support it.
-         Refer to power.h for details.
-    -->
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
 
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
@@ -675,17 +660,6 @@
     
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
-    
-    <!-- Flag indicating whether the surface flinger has limited
-         alpha compositing functionality in hardware.  If set, the window
-         manager will disable alpha trasformation in animations where not
-         strictly needed. -->
-    <bool name="config_sf_limitedAlpha">true</bool>
-
-    <!-- Enables or disables fading edges when marquee is enabled in TextView.
-         Off by default, since the framebuffer readback used to implement the
-         fading edges is prohibitively expensive on most GPUs. -->
-    <bool name="config_ui_enableFadingMarquee">true</bool>
 
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
@@ -726,15 +700,6 @@
 
     <!-- Whether to select voice/data/sms preference without user confirmation. -->
     <bool name="config_voice_data_sms_auto_fallback">true</bool>
-
-    <!-- Exempt ImsService from privacy (location) indicators -->
-    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
-
-    <!-- Controls the navigation bar interaction mode:
-       	 0: 3 button mode (back, home, overview buttons)
-	 1: 2 button mode (back, home buttons + swipe up for overview)
-	 2: gestures only for back, home and overview -->
-    <integer name="config_navBarInteractionMode">2</integer>
 
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
