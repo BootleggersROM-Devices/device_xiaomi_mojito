@@ -224,10 +224,5 @@ suspend.short_suspend_threshold_millis=2000
 suspend.short_suspend_backoff_enabled=true
 suspend.max_sleep_time_millis=40000
 
-# System
-persist.service.lgospd.enable=0
-persist.service.pcsync.enable=0
-ro.config.dha_tunnable=1
-
 # Zygote
 zygote.critical_window.minute=10
