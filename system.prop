@@ -21,6 +21,7 @@ arm64.memtag.process.system_server=off
 debug.force_no_blanking=true
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
+debug.sf.predict_hwc_composition_strategy=0
 ro.surface_flinger.enable_layer_caching=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
