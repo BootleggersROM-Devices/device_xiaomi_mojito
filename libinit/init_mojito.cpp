@@ -64,14 +64,14 @@ void load_vendor_props() {
         property_override("ro.build.fingerprint", "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
         property_override("ro.vendor.build.fingerprint", "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
         property_override("ro.bootimage.build.fingerprint", "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
-        property_override("ro.build.description", "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
+        property_override("ro.build.description", "sunny_global-user 12 RKQ1.210614.002 V13.0.11.0.SKGMIXM release-keys");
     } else {
         property_override("ro.product.device", "mojito");
         property_override("ro.product.name", "mojito");
         property_override("ro.build.fingerprint", "Redmi/mojito/mojito:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
         property_override("ro.vendor.build.fingerprint", "Redmi/mojito/mojito:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
         property_override("ro.bootimage.build.fingerprint", "Redmi/mojito/mojito:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
-        property_override("ro.build.description", "Redmi/mojito/mojito:12/RKQ1.210614.002/V13.0.11.0.SKGMIXM:user/release-keys");
+        property_override("ro.build.description", "mojito-user 12 RKQ1.210614.002 V13.0.11.0.SKGMIXM release-keys");
     }
 
     property_override("bluetooth.device.default_name", "Redmi Note 10");
