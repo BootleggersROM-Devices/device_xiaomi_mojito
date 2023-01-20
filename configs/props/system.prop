@@ -43,6 +43,10 @@ iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
+# LMK
+ro.lmk.psi_complete_stall_ms=70
+ro.lmk.swap_free_low_percentage=20
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
