@@ -78,6 +78,7 @@ void load_vendor_props() {
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.model", "Redmi Note 10");
+    property_override("vendor.usb.product_string", "Redmi Note 10");
 }
 
 void vendor_load_properties() {
