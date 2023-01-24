@@ -203,6 +203,9 @@ renderthread.skia.reduceopstasksplitting=true
 # Fastbootd
 ro.fastbootd.available=true
 
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
