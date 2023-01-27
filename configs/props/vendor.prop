@@ -129,6 +129,7 @@ debug.sdm.support_writeback=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.recomputecrop=0
+debug.sf.treat_170m_as_sRGB=1
 ro.surface_flinger.protected_contents=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
