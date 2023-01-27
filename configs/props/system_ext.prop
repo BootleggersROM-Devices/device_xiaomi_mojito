@@ -34,5 +34,6 @@ persist.device_config.mglru_native.lru_gen_config=all
 persist.vendor.console.silent.config=1
 
 # Telephony
+ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2
