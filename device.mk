@@ -374,6 +374,8 @@ PRODUCT_PACKAGES += \
     DialerMojito \
     FrameworksMojito \
     SettingsMojito \
+    SettingsOverlayM2101K7AG \
+    SettingsOverlayM2101K7AI \
     SettingsProviderMojito \
     SystemUIMojito \
     TelephonyMojito \
