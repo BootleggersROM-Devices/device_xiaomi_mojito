@@ -369,11 +369,13 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlay \
     DialerMojito \
     FrameworksMojito \
     SettingsMojito \
     SystemUIMojito \
-    TelephonyMojito
+    TelephonyMojito \
+    WifiOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -542,7 +544,6 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
