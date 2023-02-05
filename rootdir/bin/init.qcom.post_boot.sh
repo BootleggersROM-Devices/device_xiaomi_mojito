@@ -109,16 +109,16 @@ case "$soc_id" in
 
     # configure governor settings for little cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
+    echo 4000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
+    echo 16000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
     echo 1209600 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq
     echo 576000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
     echo 1 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl
 
     # configure governor settings for big cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
+    echo 4000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
+    echo 16000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
     echo 1209600 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq
     echo 768000 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq
     echo 1 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/pl
