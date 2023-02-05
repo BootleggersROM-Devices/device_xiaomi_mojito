@@ -133,6 +133,9 @@ on property:sys.boot_completed=1
     write /dev/cpuset/background/cpus 0-1
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
+
+    # Disable unnecessary printk logging
+    write /proc/sys/kernel/printk_devkmsg off
     
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_child_runs_first 1
