@@ -21,6 +21,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
+BOOTLEGGERS_BUILD_TYPE := Shishufied
 # Maintainer Prop
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootleggers.maintainer=romgharti
