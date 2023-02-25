@@ -200,6 +200,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/displayconfig/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml \
     $(LOCAL_PATH)/configs/display/display_id_4630946736638489729.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946736638489729.xml
 
+# DisplayFeatures
+PRODUCT_PACKAGES += \
+    DisplayFeatures
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -374,6 +378,7 @@ PRODUCT_PACKAGES += \
     DialerMojito \
     FrameworksMojito \
     SettingsMojito \
+    MojitoDisplayFeatures \
     SettingsOverlayM2101K7AG \
     SettingsOverlayM2101K7AI \
     SettingsProviderMojito \

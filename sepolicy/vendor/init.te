@@ -14,3 +14,5 @@ allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 allow init vendor_sysfs_scsi_host:file w_file_perms;
 
 allow init sysfs_kprofiles:file { setattr };
+
+allow init sysfs_displayfeatures:file { setattr };
