@@ -20,6 +20,7 @@ arm64.memtag.process.system_server=off
 # Display
 debug.force_no_blanking=true
 debug.sf.enable_hwc_vds=1
+debug.sf.enable_planner_prediction=false
 debug.sf.latch_unsignaled=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
