@@ -30,7 +30,7 @@
     <bool name="doze_proximity_sensor_supported">false</bool>
 
     <!-- Burn in protection -->
-    <bool name="config_statusBarBurnInProtection">true</bool>
+    <bool name="config_statusBarBurnInProtection">false</bool>
 
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
