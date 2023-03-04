@@ -251,3 +251,6 @@ CONFIG_ACS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/mojito-miuicamera/products/board.mk
