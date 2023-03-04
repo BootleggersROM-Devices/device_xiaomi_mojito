@@ -19,6 +19,9 @@ $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/mojito-miuicamera/products/miuicamera.mk)
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_vendor=true \
