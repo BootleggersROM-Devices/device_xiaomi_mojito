@@ -757,4 +757,7 @@
      <!-- Pocket Lock -->
      <bool name="config_pocketModeSupported">true</bool>
      <bool name="config_pocketUseLightSensor">true</bool>
+
+     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
+     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 </resources>
