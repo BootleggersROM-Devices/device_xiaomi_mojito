@@ -19,6 +19,10 @@ $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/mojito-miuicamera/products/miuicamera.mk)
 
