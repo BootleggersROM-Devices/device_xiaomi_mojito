@@ -29,7 +29,7 @@
     <dimen name="rounded_corner_radius_adjustment">22px</dimen>
 
     <!-- Height of the status bar. -->
-    <dimen name="status_bar_height_default">106.0px</dimen>
+    <dimen name="status_bar_height_default">108.0px</dimen>
     <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
     <dimen name="status_bar_height_landscape">45dp</dimen>
     
