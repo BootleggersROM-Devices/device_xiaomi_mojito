@@ -77,6 +77,9 @@ on boot
     start rfs_access
     start mi_thermald
 
+    # default country code
+    setprop ro.boot.wificountrycode 00
+
 # Allow system to manipulate kprofiles modes and parameters
     chown system system /sys/module/kprofiles/parameters/auto_kprofiles
     chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
