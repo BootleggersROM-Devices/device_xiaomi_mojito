@@ -387,8 +387,6 @@ PRODUCT_PACKAGES += \
     FrameworksMojito \
     SettingsMojito \
     MojitoDisplayFeatures \
-    SettingsOverlayM2101K7AG \
-    SettingsOverlayM2101K7AI \
     SettingsProviderMojito \
     SystemUIMojito \
     TelephonyMojito \
