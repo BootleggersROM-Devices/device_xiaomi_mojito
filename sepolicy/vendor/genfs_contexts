@@ -46,7 +46,6 @@ genfscon sysfs /devices/platform/soc/1d84000.ufshc/clkgate_enable               
 genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup                                                                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/888000.i2c/i2c-0/0-0028/wakeup                                                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-0065/wakeup                                                                                              u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-0065/power_supply/bq2597x-standalone                                                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-0065/power_supply/bq2597x-standalone/wakeup                                                              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/wakeup                                                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup                                                                                                        u:object_r:sysfs_wakeup:s0
@@ -69,7 +68,6 @@ genfscon sysfs /devices/platform/soc/soc:ant_check_div/wakeup                   
 genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup                                                                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup/wakeup                                                                                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:gpio_keys/wakeup                                                                                                        u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify                                                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/wakeup                                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-cdsp/wakeup/wakeup                                                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-modem/wakeup/wakeup                                                                                          u:object_r:sysfs_wakeup:s0
