@@ -160,6 +160,9 @@ vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.disable_rotator_downscale=1
 vendor.gralloc.enable_fb_ubwc=1
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
 persist.vendor.cp.fcc_main_ua=400000
