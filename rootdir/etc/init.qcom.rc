@@ -352,6 +352,11 @@ service vendor.power /vendor/bin/hw/android.hardware.power-service-qti
     group system input
     override
 
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
 on property:init.svc.cnss_diag=running
     stop cnss_diag
 
