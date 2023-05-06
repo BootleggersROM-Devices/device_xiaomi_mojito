@@ -127,7 +127,6 @@ persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
 # Display
-debug.sdm.support_writeback=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.disable_backpressure=1
 debug.sf.recomputecrop=0
