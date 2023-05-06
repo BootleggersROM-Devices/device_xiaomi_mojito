@@ -9,7 +9,6 @@ persist.vendor.btstack.enable.lpa=true
 persist.vendor.bt.a2dp.hal.implementation=true
 
 # Camera
-camera.disable_zsl_mode=1
 log.tag.CHIUSECASE=ERROR
 
 # Charger
