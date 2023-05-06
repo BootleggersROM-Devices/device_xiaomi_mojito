@@ -178,6 +178,11 @@ on boot
     enable vendor.dataadpl
 
 on post-fs-data
+
+    # Access permission for input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
     # Create directory used by display clients
     mkdir /data/vendor/display 0770 system graphics
 
