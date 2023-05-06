@@ -53,6 +53,12 @@ on init
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
+    # Thermal Profiles permissions
+    chmod 0664 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chmod 0666 /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/temp_stat
+
 on fs
     mount_all --early /vendor/etc/fstab.qcom
 
@@ -85,7 +91,6 @@ on boot
     chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
     chown system system /sys/module/kprofiles/parameters/kp_mode
     chmod 0660 /sys/module/kprofiles/parameters/kp_mode
-    chown system system /sys/class/thermal/thermal_message/sconfig
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown system system /sys/class/thermal/thermal_message/charger_temp
 
