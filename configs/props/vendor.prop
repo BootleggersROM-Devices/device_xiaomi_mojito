@@ -153,7 +153,6 @@ vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
-vendor.display.perf_hint_window=50
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.disable_rotator_downscale=1
