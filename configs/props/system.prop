@@ -55,7 +55,7 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
-vendor.mm.enable.qcom_parser=16777215
+vendor.mm.enable.qcom_parser=16777199
 
 # Netflix
 ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
