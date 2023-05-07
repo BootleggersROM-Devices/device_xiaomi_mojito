@@ -8,6 +8,9 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.bt.a2dp.hal.implementation=true
 
+# Camera
+camera.disable_zsl_mode=1
+
 # Charger
 ro.charger.enable_suspend=true
 
