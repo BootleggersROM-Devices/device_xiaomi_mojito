@@ -184,7 +184,6 @@ debug.stagefright.omx_default_rank.sw-audio=1
 ro.netflix.bsp_rev=Q6150-17263-1
 
 # Perf
-ro.vendor.perf.scroll_opt=true
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
 
