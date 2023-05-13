@@ -129,6 +129,13 @@ persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
 # Display
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.sf.duration=15666666
+debug.sf.late.app.duration=16666666
+debug.sf.early.sf.duration=15666666
+debug.sf.early.app.duration=16666666
+debug.sf.earlyGl.sf.duration=15666666
+debug.sf.earlyGl.app.duration=16666666
 debug.sf.disable_client_composition_cache=1
 debug.sf.disable_backpressure=1
 debug.sf.recomputecrop=0
