@@ -233,7 +233,7 @@ vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
 
 # SoC
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM6150
 
 # Suspend properties
