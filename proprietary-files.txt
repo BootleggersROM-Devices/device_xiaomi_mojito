@@ -504,18 +504,16 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Display
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libhdr_tm.so
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
-
-# Display - from NX627J 20201029.204053
--vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
+-vendor/lib64/libdisplayqos.so
+-vendor/lib64/libhdr_tm.so|a222a7d838735c5ce73f06d4096fea3ca19611c8
+-vendor/lib64/libqseed3.so
+-vendor/lib64/libsdedrm.so|2a9a6f8b79ee8c916a656a670b3670105e143418
+-vendor/lib64/libsdm-color.so|d0984c33dcbf84940676917e0c3584b0ccfeaf03
+-vendor/lib64/libsdm-colormgr-algo.so|15f696a4575868e528360896f1e0098d531899c0
+-vendor/lib64/libsdm-diag.so|8c038fda1addb5c9cb075d6ae1000698782ddd8b
+-vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
+-vendor/lib64/libsdmextension.so|e10d29f29b7a53b75369e58e8a165b2b86609f26
+-vendor/lib64/libtinyxml2_1.so
 
 # Display Calibration
 vendor/bin/qdcmss
@@ -557,41 +555,41 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 
 # DRM
-vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
-vendor/bin/qseecomd
+-vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
+-vendor/bin/qseecomd|6d039e936dc833fbac9c121ca19c885b0066e555
 vendor/etc/init/qseecomd.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/gpfspath_oem_config.xml
-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libcpion.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket.so
-vendor/lib64/libops.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsi.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
-vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+-vendor/lib64/libGPreqcancel.so
+-vendor/lib64/libGPreqcancel_svc.so|897a58845264ab512ee3a1041e608c8f16275556
+-vendor/lib64/libQSEEComAPI.so|480bc3683426708cc91d45b1e1ab23e716540b46
+-vendor/lib64/libSecureUILib.so
+-vendor/lib64/libStDrvInt.so
+-vendor/lib64/libcpion.so|542fd1114d09ec5c0d6d8e44ed925a0ee226ce94
+-vendor/lib64/libdrmfs.so|2e000862d1dba971796ba1223352af519ab86229
+-vendor/lib64/libdrmtime.so|d7460a3d0d0a9ccc044688f960ca4b9c3c05cfd5
+-vendor/lib64/libminkdescriptor.so
+-vendor/lib64/libminksocket.so|33a9e55842c1927539b8ed5d30bb3ddb12599a5e
+-vendor/lib64/libops.so|a6556e34f327dab506012db83169b5c53e7f1b0a
+-vendor/lib64/libqisl.so
+-vendor/lib64/librpmb.so|18b6b3297d117f093f2e4104384c4182052dd82f
+-vendor/lib64/libsecureui.so|28f82685f84fb03637ec087dd4cace6122add1b3
+-vendor/lib64/libsecureui_svcsock.so
+-vendor/lib64/libsi.so
+-vendor/lib64/libssd.so|e255c1453e1ea5b7e02555bf3301791aba370baf
+-vendor/lib64/libtzdrmgenprov.so
+-vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # DRM Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/liboemcrypto.so
-vendor/lib64/libtrustedapploader.so
-vendor/lib64/libwvhidl.so
+-vendor/lib64/mediadrm/libwvdrmengine.so
+-vendor/lib64/liboemcrypto.so|457e298d46454bed76defd96eaedb047b6b50d74
+-vendor/lib64/libtrustedapploader.so
+-vendor/lib64/libwvhidl.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so
