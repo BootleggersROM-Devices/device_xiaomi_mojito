@@ -55,6 +55,13 @@
             <instance>gnss_vendor</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.graphics.allocator</name>
+        <interface>
+            <name>IAllocator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.memtrack</name>
         <version>1</version>
