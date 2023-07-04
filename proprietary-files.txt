@@ -765,7 +765,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
--system_ext/priv-app/ims/ims.apk|6a383ab360468c2b040c4ce618ac5188ab4fc655
+-system_ext/priv-app/ims/ims.apk|2e58f3977764e504666a3c9f0f3e20ce34178cf1
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
