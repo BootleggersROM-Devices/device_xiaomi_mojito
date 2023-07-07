@@ -22,9 +22,7 @@ PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 BOOTLEGGERS_BUILD_TYPE := Shishufied
-# Maintainer Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=romgharti
+DEVICE\_MAINTAINERS := Rom Bdr. Gharti
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
