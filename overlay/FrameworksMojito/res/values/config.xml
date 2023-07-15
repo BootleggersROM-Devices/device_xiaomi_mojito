@@ -767,4 +767,8 @@
 
      <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
      <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
+
+     <!-- Control whether Night display is available. This should only be enabled on devices
+         with HWC 2.0 or higher. -->
+     <bool name="config_nightDisplayAvailable">true</bool>
 </resources>
