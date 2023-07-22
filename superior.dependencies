@@ -1,0 +1,32 @@
+[
+    {
+        "repository": "device_xiaomi_mojito",
+        "target_path": "device/xiaomi/mojito",
+        "branch": "thirteen",
+        "remote": "SuperiorOS-Devices"
+    },
+    {
+        "repository": "vendor_xiaomi_mojito",
+        "target_path": "vendor/xiaomi/mojito",
+        "branch": "thirteen",
+        "remote": "SuperiorOS-Devices"        
+    },
+    {
+        "repository": "kernel_xiaomi_mojito",
+        "target_path": "kernel/xiaomi/mojito",
+        "branch": "inline-rom",
+        "remote": "SuperiorOS-Devices"
+    },
+    {
+       	"repository": "romgharti/vendor-xiaomi-mojito-miuicamera",
+       	"target_path": "vendor/xiaomi/mojito-miuicamera",
+       	"branch":"12.1-13-noprebuiltlibcam",
+       	"remote":"gitlab"
+    },
+    {
+       	"repository": "romgharti/android_hardware_xiaomi",
+       	"target_path": "hardware/xiaomi",
+       	"branch": "lineage-20",
+       	"remote": "github"
+    }
+]
