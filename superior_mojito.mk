@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common SuperiorOS ROM stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
+SUPERIOR_OFFICIAL := true
 
 # Product Specifics
 PRODUCT_NAME := superior_mojito
