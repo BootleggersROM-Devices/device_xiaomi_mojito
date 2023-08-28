@@ -44,6 +44,10 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.lmk.psi_complete_stall_ms=70
 ro.lmk.swap_free_low_percentage=20
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # Logs
 persist.log.tag.AnalyticsService=S
 persist.log.tag.KernelCpuUidActiveTimeReader=S
