@@ -32,8 +32,10 @@ public class KProfilesModesTileService extends TileService {
             return;
         }
         Tile tile = getQsTile();
-        tile.setState(Tile.STATE_UNAVAILABLE);
-        tile.updateTile();
+        if (tile != null) {
+            tile.setState(Tile.STATE_UNAVAILABLE);
+            tile.updateTile();
+        }
     }
 
     @Override
