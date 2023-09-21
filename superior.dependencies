@@ -33,5 +33,11 @@
        	"repository": "hardware_xiaomi",
        	"target_path": "hardware/xiaomi",
        	"branch": "mojito"
+    },
+    {
+        "repository": "android_packages_resources_devicesettings",
+        "target_path": "packages/resources/devicesettings",
+        "branch": "thirteen",
+        "remote": "SuperiorOS-Devices"
     }
 ]
