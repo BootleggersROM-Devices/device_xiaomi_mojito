@@ -378,7 +378,6 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureMojito \
-    BoostFrameworkOverlay \
     CarrierConfigMojito \
     DialerMojito \
     FrameworksMojito \
