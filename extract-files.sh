@@ -63,7 +63,7 @@ function blob_fixup() {
         vendor/bin/mi_thermald)
             sed -i 's/%d\/on/%d\/../g' "${2}"
             ;;
-        vendor/lib64/libssc.so | vendor/lib64/libsnsapi.so | vendor/lib64/sensors.ssc.so | vendor/lib64/libwvhidl.so | vendor/lib64/libsnsdiaglog.so | vendor/bin/sensors.qti)
+        vendor/lib64/libssc.so | vendor/lib64/libsnsapi.so | vendor/lib64/sensors.ssc.so | vendor/lib64/libwvhidl.so | vendor/lib64/libsnsdiaglog.so | vendor/bin/sensors.qti | vendor/lib64/libsensorcal.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
         ;;
     esac
