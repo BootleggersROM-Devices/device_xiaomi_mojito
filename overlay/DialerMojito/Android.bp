@@ -2,5 +2,5 @@ runtime_resource_overlay {
     name: "DialerMojito",
     theme: "DialerMojito",
     sdk_version: "current",
-    vendor: true,
+    product_specific: true,
 }

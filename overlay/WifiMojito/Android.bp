@@ -2,5 +2,5 @@ runtime_resource_overlay {
     name: "WifiMojito",
     theme: "WifiMojito",
     sdk_version: "current",
-    vendor: true,
+    product_specific: true,
 }

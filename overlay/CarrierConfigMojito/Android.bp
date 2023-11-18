@@ -2,5 +2,5 @@ runtime_resource_overlay {
     name: "CarrierConfigMojito",
     theme: "CarrierConfigMojito",
     sdk_version: "current",
-    vendor: true,
+    product_specific: true,
 }
