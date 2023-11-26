@@ -504,6 +504,7 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # USB
+PRODUCT_HAS_GADGET_HAL := true
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
