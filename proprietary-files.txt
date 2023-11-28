@@ -564,8 +564,6 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so|897a58845264ab512ee3a1041e608c8f16275556
 -vendor/lib64/libQSEEComAPI.so|480bc3683426708cc91d45b1e1ab23e716540b46
--vendor/lib64/libSecureUILib.so
--vendor/lib64/libStDrvInt.so
 -vendor/lib64/libcpion.so|542fd1114d09ec5c0d6d8e44ed925a0ee226ce94
 -vendor/lib64/libdrmfs.so|2e000862d1dba971796ba1223352af519ab86229
 -vendor/lib64/libdrmtime.so|d7460a3d0d0a9ccc044688f960ca4b9c3c05cfd5
@@ -574,13 +572,9 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/lib64/libops.so|a6556e34f327dab506012db83169b5c53e7f1b0a
 -vendor/lib64/libqisl.so
 -vendor/lib64/librpmb.so|18b6b3297d117f093f2e4104384c4182052dd82f
--vendor/lib64/libsecureui.so|28f82685f84fb03637ec087dd4cace6122add1b3
--vendor/lib64/libsecureui_svcsock.so
--vendor/lib64/libsi.so
 -vendor/lib64/libssd.so|e255c1453e1ea5b7e02555bf3301791aba370baf
 -vendor/lib64/libtzdrmgenprov.so
 -vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
--vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # DRM Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
