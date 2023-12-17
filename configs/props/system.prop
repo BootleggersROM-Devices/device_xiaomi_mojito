@@ -11,6 +11,9 @@ persist.vendor.bt.a2dp.hal.implementation=true
 # Camera
 log.tag.CHIUSECASE=ERROR
 
+# Charger
+ro.charger.enable_suspend=true
+
 # CNE
 persist.vendor.cne.feature=1
 
