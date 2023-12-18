@@ -15,7 +15,4 @@ get_prop(system_app, vendor_persist_camera_prop)
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read open getattr };
 
-# Zygote
-allow system_app zygote:unix_stream_socket { getopt };
-
 allow system_app sysfs_kprofiles:file rw_file_perms;
