@@ -44,6 +44,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 ro.lmk.use_minfree_levels=true
+ro.lmk.thrashing_limit=200
+ro.lmk.psi_partial_stall_ms=120
 
 # Logs
 persist.log.tag.AnalyticsService=S
