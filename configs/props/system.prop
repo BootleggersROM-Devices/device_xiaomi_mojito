@@ -24,7 +24,6 @@ arm64.memtag.process.system_server=off
 debug.force_no_blanking=true
 debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_hwc_vds=1
-debug.sf.enable_planner_prediction=false
 debug.sf.latch_unsignaled=1
 debug.sf.enable_transaction_tracing=false
 ro.surface_flinger.enable_frame_rate_override=false
