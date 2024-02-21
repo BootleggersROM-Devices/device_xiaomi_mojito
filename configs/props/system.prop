@@ -60,6 +60,9 @@ persist.log.tag.b/223498680=S
 persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 
+# LTE CA
+persist.sys.radio.force_lte_ca=true
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
