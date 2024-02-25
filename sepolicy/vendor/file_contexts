@@ -21,7 +21,7 @@
 /sys/touchpanel/double_tap                                              u:object_r:sysfs_touchpanel:s0
 
 # Elliptic
-/dev/elliptic[0-9]                                                      u:object_r:sensors_device:s0
+/dev/elliptic(.*)?                                                      u:object_r:sensors_device:s0
 
 # Files in rootfs
 /avb(/.*)?                                                              u:object_r:avb_file:s0
