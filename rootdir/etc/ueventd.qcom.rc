@@ -177,6 +177,10 @@ dev/mem_buf_vm/*          0444   system     system
 /dev/mdss_rotator         0664   system     system
 /dev/spec_sync            0660   system     system
 
+# Elliptic for proximity sensor
+/dev/elliptic0            0644   system       system
+/dev/elliptic1            0644   system       system
+
 #QDSS
 /dev/byte-cntr            0660   system    oem_2902
 /dev/mhi_qdss             0660   system    oem_2902

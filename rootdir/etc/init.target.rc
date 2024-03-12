@@ -84,6 +84,10 @@ on post-fs-data
     mkdir /data/vendor/mac_addr 0771 system system
     mkdir /data/vendor/wlan_logs 0770 system wifi
 
+    # Elliptic for proximity sensor
+    chmod 0644 /dev/elliptic0
+    chmod 0644 /dev/elliptic1
+
 on boot
     start vendor.rmt_storage
     start rfs_access
@@ -151,10 +155,6 @@ on property:sys.boot_completed=1
     
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_child_runs_first 1
-
-    # Elliptic
-    chmod 0666 /dev/elliptic0
-    chmod 0666 /dev/elliptic1
 
     chmod 0664 /sys/class/power_supply/battery/input_suspend
     chmod 0664 /sys/class/power_supply/battery/battery_charging_enabled
