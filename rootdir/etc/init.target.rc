@@ -61,6 +61,10 @@ on init
     chown system system /sys/class/thermal/thermal_message/sconfig
     chmod 0666 /sys/class/thermal/thermal_message/temp_state
     chown system system /sys/class/thermal/thermal_message/temp_stat
+    chmod 0664 /sys/class/thermal/thermal_message/balance_mode
+    chown system system /sys/class/thermal/thermal_message/balance_mode
+    chmod 0664 /sys/class/thermal/thermal_message/flash_state
+    chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
 
 on fs
     mount_all --early /vendor/etc/fstab.qcom
