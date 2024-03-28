@@ -26,9 +26,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Call the Leica Camera setup
 $(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicacamera-vendor.mk)
 
-# Apex
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_vendor=true \
